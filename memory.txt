@@ -1,0 +1,26 @@
+K_A (p,p)
+K_AB (p,n-p) 
+π_A (p,1) : diag
+Φ_A (p,p)
+Φ_tilde (n,p)
+r (n,1)
+W_A_AB (p,n)
+W_A (p,p)
+W_AB (p,n)
+Q (p,p)
+s_Q (p,) : diag
+V_Q (p,p)
+V_tilde (n,p)
+s_tilde (p,)
+
+will be done p times
+(r[i]*(π_A.T*Φ_tilde[i,:])@(np.tile(c, [1,p])*Φ_tilde).T).shape (1,n)
+
+K_A.shape
+(64, 64)
+K_AB.shape
+(64, 121040)
+n
+121104
+p
+64
